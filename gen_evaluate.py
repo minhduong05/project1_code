@@ -50,10 +50,6 @@ def calculate_total_turning_angle(path):
 # 2. HÀM TẠO MAP 100x100
 # ==========================================
 def generate_constrained_grid(rows, cols, obstacle_prob=0.45):
-    """
-    Tạo map 100x100 với mật độ vật cản cao (mặc định 45%).
-    Viền map luôn an toàn để đảm bảo có đường đi.
-    """
     grid = np.zeros((rows, cols), dtype=int)
     
     # Đổ vật cản vào phần bụng
