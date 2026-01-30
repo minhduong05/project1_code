@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import os
 
-# --- IMPORT CLASS THUẬT TOÁN ---
 try:
     from improved_astar import ImprovedAStar
     from traditional_astar import TraditionalAStar
